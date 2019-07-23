@@ -1,0 +1,9 @@
+#+TITLE: Command lines
+
+* bash
+
+** Recusively find all files by extension
+find . -name "*.___" -type f
+
+** Recusively delete all files by extension
+find . -name "*.___" -type f -delete
