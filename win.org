@@ -1,0 +1,6 @@
+#+TITLE: Command lines - Bash
+
+* Win
+
+** list content of directory
+~dir~
