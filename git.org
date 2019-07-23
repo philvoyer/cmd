@@ -1,0 +1,9 @@
+#+TITLE: Command lines - Git
+
+* Git
+
+** View the email address used in commits
+~git config user.email~
+
+** Change email address used in commits for a single repository
+~git config user.email~ "name@domain.com"
