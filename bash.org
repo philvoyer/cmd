@@ -1,6 +1,6 @@
-#+TITLE: Command lines
+#+TITLE: Command lines - Bash
 
-* bash
+* Bash
 
 ** Recusively find all files by extension
 ~find . -name "*.___" -type f~
