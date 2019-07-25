@@ -7,3 +7,6 @@
 
 ** Change email address used in commits for a single repository
 ~git config user.email~ "name@domain.com"
+
+** Pull rebase instead of merge
+~git config --global --bool pull.rebase true~
