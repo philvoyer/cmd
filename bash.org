@@ -3,7 +3,10 @@
 * Bash
 
 ** Recursively list folder content
-ls -R
+~ls -R~
+
+** Recursively list folder content with exclusion
+~ls | grep -v 'name'~
 
 ** Recursively find all files by extension
 ~find . -name "*.___" -type f~
