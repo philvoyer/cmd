@@ -2,8 +2,11 @@
 
 * Bash
 
-** Recusively find all files by extension
+** Recursively list folder content
+ls -R
+
+** Recursively find all files by extension
 ~find . -name "*.___" -type f~
 
-** Recusively delete all files by extension
+** Recursively delete all files by extension
 ~find . -name "*.___" -type f -delete~
