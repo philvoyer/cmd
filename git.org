@@ -2,6 +2,9 @@
 
 * Git
 
+** Pull content
+~git pull~
+
 ** View the email address used in commits
 ~git config user.email~
 
