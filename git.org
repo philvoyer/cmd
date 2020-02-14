@@ -19,4 +19,12 @@
 
 ** Branch
 
-~git branch name~
+~git branch _~
+
+** Checkout
+
+~git checkout _~
+
+** Branch & Checkout
+
+~git checkout -b _~
