@@ -38,3 +38,10 @@
 
 ~git submodule add _~
 
+** Submodule remove
+
+~git submodule deinit --force _~
+~git rm --cached _~
+~git config -f .gitmodules --remove-section submodule._~
+~git add .gitmodules~
+
