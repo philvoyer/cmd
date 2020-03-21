@@ -28,3 +28,8 @@
 ** Branch & Checkout
 
 ~git checkout -b _~
+
+** Rename branch
+
+~git branch -m <currentbranchnewname>~
+~git branch -m <oldname> <newname>~
