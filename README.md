@@ -1,7 +1,7 @@
 # cmd
 Simple reminders for command line operations.
 
-Offered in 3 flavors :
+Offered in 4 flavors :
 
 ## bash
 
@@ -14,3 +14,7 @@ For macOS operations.
 ## win
 
 For Windows operations.
+
+## git
+
+For Git operations.
