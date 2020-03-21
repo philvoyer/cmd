@@ -35,6 +35,10 @@
 
 ~git branch -m <oldname> <newname>~
 
+** Reset branch
+
+~git reset --hard _~
+
 ** Submodule add
 
 ~git submodule add _~
