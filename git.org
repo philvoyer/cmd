@@ -32,6 +32,7 @@
 ** Rename branch
 
 ~git branch -m <currentbranchnewname>~
+
 ~git branch -m <oldname> <newname>~
 
 ** Submodule add
@@ -41,7 +42,9 @@
 ** Submodule remove
 
 ~git submodule deinit --force _~
-~git rm --cached _~
-~git config -f .gitmodules --remove-section submodule._~
-~git add .gitmodules~
 
+~git rm --cached _~
+
+~git config -f .gitmodules --remove-section submodule._~
+
+~git add .gitmodules~
