@@ -33,3 +33,8 @@
 
 ~git branch -m <currentbranchnewname>~
 ~git branch -m <oldname> <newname>~
+
+** Submodule add
+
+~git submodule add _~
+
