@@ -2,6 +2,15 @@
 
 * Bash
 
+** Add path to .bash_profile
+
+~cd ~~
+~vi .bash_profile~
+~export PATH=$PATH:/_~
+~:q!~
+~source ~/.bash_profile~
+~echo $PATH~
+
 ** Recursively list folder content
 ~ls -R~
 
