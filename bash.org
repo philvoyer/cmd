@@ -7,6 +7,10 @@
 
 ~chmod 755 _~
 
+** Permission (this user only)
+
+~chmod 700 _~
+
 ** Add path to .bash_profile
 
 ~cd ~~
