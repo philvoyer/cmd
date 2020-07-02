@@ -2,6 +2,11 @@
 
 * Bash
 
+
+** Permission (all user)
+
+~chmod 755 _~
+
 ** Add path to .bash_profile
 
 ~cd ~~
