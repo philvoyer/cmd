@@ -23,6 +23,9 @@
 ** Pull rebase instead of merge
 ~git config --global --bool pull.rebase true~
 
+** Pull content
+~git pull~
+
 ** Branch
 
 ~git branch _~
