@@ -5,8 +5,8 @@
 ** Status
 ~git status~
 
-** Pull content
-~git pull~
+** View git config
+~git config --list~
 
 ** View the email address used in commits
 ~git config user.email~
