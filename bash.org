@@ -11,13 +11,29 @@
 
 ~chmod 700 _~
 
-** Add path to .bash_profile
+** Source .bash_profile from .zprofile
+
+#+BEGIN_SRC sh
+if [ -r ~/.bash_profile ]; then
+   source ~/.bash_profile
+fi
+#+END_SRC
+
+** Source .bashrc from .bash_profile
+
+#+BEGIN_SRC sh
+if [ -r ~/.bashrc ]; then
+   source ~/.bashrc
+fi
+#+END_SRC
+
+** Add path to .bashrc
 
 ~cd ~~
-~vi .bash_profile~
+~vi .bashrc~
 ~export PATH=$PATH:/_~
 ~:q!~
-~source ~/.bash_profile~
+~source ~/.bashrc~
 ~echo $PATH~
 
 ** Recursively list folder content
