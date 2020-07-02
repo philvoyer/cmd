@@ -11,8 +11,14 @@
 ** View the email address used in commits
 ~git config user.email~
 
-** Change email address used in commits for a single repository
+** Change email address used in commits
 ~git config user.email "name@domain.com"~
+
+** View the user name used in commits
+~git config user.name~
+
+** Change user name used in commits
+~git config user.name "name"~
 
 ** Pull rebase instead of merge
 ~git config --global --bool pull.rebase true~
