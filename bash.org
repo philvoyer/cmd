@@ -13,7 +13,7 @@
 
 ** Source .bash_profile from .zprofile
 
-#+BEGIN_SRC sh
+#+BEGIN_SRC shell
 if [ -r ~/.bash_profile ]; then
    source ~/.bash_profile
 fi
@@ -21,7 +21,7 @@ fi
 
 ** Source .bashrc from .bash_profile
 
-#+BEGIN_SRC sh
+#+BEGIN_SRC shell
 if [ -r ~/.bashrc ]; then
    source ~/.bashrc
 fi
