@@ -69,3 +69,6 @@
 ** Authentification: ssh list fingerprints of all identities
 
 ~ssh-add -l~
+
+** Authentification: ssh generate new key
+
