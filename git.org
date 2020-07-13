@@ -76,3 +76,8 @@
 
 ** Authentification: ssh start agent
 
+~eval `ssh-agent`~
+
+** Authentification: ssh add private key to agent (id_rsa)
+
+~ssh-add -K ~/.ssh/id_rsa~
