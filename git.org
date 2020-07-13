@@ -61,3 +61,7 @@
 ~git config -f .gitmodules --remove-section submodule._~
 
 ~git add .gitmodules~
+
+** ssh status (github)
+
+~ssh -vT git@github.com~
