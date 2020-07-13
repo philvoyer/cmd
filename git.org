@@ -62,6 +62,10 @@
 
 ~git add .gitmodules~
 
-** ssh status (github)
+** Authentification: ssh status (for github)
 
 ~ssh -vT git@github.com~
+
+** Authentification: ssh list fingerprints of all identities
+
+~ssh-add -l~
