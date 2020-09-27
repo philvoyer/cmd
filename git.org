@@ -76,6 +76,10 @@
 
 ~git reset --hard _~
 
+** Log commits
+
+~git log~
+
 ** Submodule add
 
 ~git submodule add _~
