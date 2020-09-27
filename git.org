@@ -3,30 +3,39 @@
 * Git
 
 ** Status
+
 ~git status~
 
 ** View git config
+
 ~git config --list~
 
 ** View the email address used in commits
+
 ~git config user.email~
 
 ** Change email address used in commits
+
 ~git config user.email "name@domain.com"~
 
 ** View the user name used in commits
+
 ~git config user.name~
 
 ** Change user name used in commits
+
 ~git config user.name "name"~
 
 ** Pull rebase instead of merge
+
 ~git config --global --bool pull.rebase true~
 
 ** Pull content
+
 ~git pull~
 
 ** Fetch
+
 ~git fetch~
 
 ** Branch
