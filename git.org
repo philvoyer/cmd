@@ -50,6 +50,10 @@
 
 ~git branch -r~
 
+** List branches & commits
+
+~git show-branch~
+
 ** Branch
 
 ~git branch _~
