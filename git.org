@@ -80,6 +80,12 @@
 
 ~git log~
 
+** Log commits with filtering
+
+~git log | grep <pattern>~
+
+~git log -S<pattern>~
+
 ** Submodule add
 
 ~git submodule add _~
