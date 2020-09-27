@@ -38,6 +38,12 @@
 
 ~git fetch~
 
+** List all branches (local & remote)
+
+~git branch --all~
+
+~git branch -a~
+
 ** Branch
 
 ~git branch _~
