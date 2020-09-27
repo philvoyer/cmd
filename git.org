@@ -80,6 +80,8 @@
 
 ~git log~
 
+~git log --oneline~
+
 ** Log commits with filtering
 
 ~git log | grep <pattern>~
