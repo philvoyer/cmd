@@ -84,9 +84,9 @@
 
 ** Log commits with filtering
 
-~git log | grep <pattern>~
+~git log -S <pattern>~
 
-~git log -S<pattern>~
+~git log | grep <pattern>~
 
 ** Submodule add
 
