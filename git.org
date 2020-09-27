@@ -44,6 +44,12 @@
 
 ~git branch -a~
 
+** List all branches (remote)
+
+~git branch --remote~
+
+~git branch -r~
+
 ** Branch
 
 ~git branch _~
