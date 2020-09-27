@@ -26,6 +26,9 @@
 ** Pull content
 ~git pull~
 
+** Fetch
+~git fetch~
+
 ** Branch
 
 ~git branch _~
