@@ -72,6 +72,10 @@
 
 ~git branch -m <oldname> <newname>~
 
+** Merge branch
+
+~git merge --no-ff _~
+
 ** Reset branch
 
 ~git reset --hard _~
