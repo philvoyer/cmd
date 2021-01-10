@@ -2,6 +2,10 @@
 
 * Bash
 
+** Create folder
+
+~mkdir -p _~
+
 ** system information
 
 ~uname -a~
