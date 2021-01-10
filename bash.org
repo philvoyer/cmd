@@ -18,6 +18,10 @@
 
 ~chmod 700 _~
 
+** Permission (executable)
+
+~chmod +x _~
+
 ** Permission (executable for this user only)
 
 ~chmod u+x _~
