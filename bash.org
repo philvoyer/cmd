@@ -2,13 +2,13 @@
 
 * Bash
 
-** Create folder
-
-~mkdir -p _~
-
 ** system information
 
 ~uname -a~
+
+** Create folder
+
+~mkdir -p _~
 
 ** Permission (all user)
 
