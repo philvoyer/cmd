@@ -45,8 +45,12 @@ fi
 ** Recursively list folder content with exclusion
 ~ls | grep -v 'name'~
 
-** Recursively find all files by extension
+** Recursively find all files with extension
 ~find . -name "*.___" -type f~
 
-** Recursively delete all files by extension
+** Recursively delete all files with extension
 ~find . -name "*.___" -type f -delete~
+
+** Recursively find all files with extension and copy to folder
+
+~find . -name "*.___" -type f -exec cp {} ./foldername \;~
