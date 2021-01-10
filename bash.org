@@ -18,6 +18,10 @@
 
 ~chmod 700 _~
 
+** Permission (executable for this user only)
+
+~chmod u+x _~
+
 ** Source .bash_profile from .zprofile
 
 #+BEGIN_SRC shell
