@@ -94,7 +94,11 @@
 
 ** Log with format
 
- ~git log --pretty=format:'%h %<(20)%an %s' -10~
+~git log --pretty=format:'%h %<(20)%an %s' -10~
+
+** Log branching graph
+
+~git log --all --decorate --oneline --graph~
 
 ** Submodule add
 
