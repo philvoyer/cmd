@@ -92,6 +92,10 @@
 
 ~git log | grep <pattern>~
 
+** Log with format
+
+ ~git log --pretty=format:'%h %<(20)%an %s' -10~
+
 ** Submodule add
 
 ~git submodule add _~
