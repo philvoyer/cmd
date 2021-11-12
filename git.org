@@ -94,6 +94,8 @@
 
 ** Log with format
 
+~git log --pretty -5~
+
 ~git log --pretty=format:'%h %<(20)%an %s' -10~
 
 ** Log branching graph
