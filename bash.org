@@ -30,6 +30,10 @@
 
 ~chmod u+x _~
 
+** View value of PATH variable
+
+~echo $PATH~
+
 ** Source .bash_profile from .zprofile
 
 #+BEGIN_SRC shell
