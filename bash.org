@@ -36,7 +36,9 @@
 
 ** Add a new path to PATH variable
 
-~export PATH="$PATH:`pwd`/_"~
+#+BEGIN_SRC shell
+export PATH="$PATH:`pwd`/_"
+#+END_SRC
 
 ** Source .bash_profile from .zprofile
 
@@ -56,23 +58,31 @@ fi
 
 ** Add path to .bashrc
 
-~cd ~~
-~vi .bashrc~
-~export PATH=$PATH:/_~
-~:q!~
-~source ~/.bashrc~
-~echo $PATH~
+#+BEGIN_SRC shell
+cd ~
+vi .bashrc
+export PATH=$PATH:/_
+:q!
+source ~/.bashrc
+echo $PATH
+#+END_SRC
 
 ** Recursively list folder content
+
 ~ls -R~
 
 ** Recursively list folder content with exclusion
+
+#+BEGIN_SRC shell
 ~ls | grep -v 'name'~
+#+END_SRC
 
 ** Recursively find all files with extension
+
 ~find . -name "*.___" -type f~
 
 ** Recursively delete all files with extension
+
 ~find . -name "*.___" -type f -delete~
 
 ** Recursively find all files with extension and copy to folder
