@@ -4,35 +4,51 @@
 
 ** system information
 
-~uname -a~
+#+BEGIN_SRC shell
+uname -a
+#+END_SRC
 
 ** Create folder
 
-~mkdir -p _~
+#+BEGIN_SRC shell
+mkdir -p _
+#+END_SRC
 
 ** View permission
 
-~ls -l~
+#+BEGIN_SRC shell
+ls -l
+#+END_SRC
 
 ** Permission (all user)
 
-~chmod 755 _~
+#+BEGIN_SRC shell
+chmod 755 _
+#+END_SRC
 
 ** Permission (this user only)
 
-~chmod 700 _~
+#+BEGIN_SRC shell
+chmod 700 _
+#+END_SRC
 
 ** Permission (executable)
 
-~chmod +x _~
+#+BEGIN_SRC shell
+chmod +x _
+#+END_SRC
 
 ** Permission (executable for this user only)
 
-~chmod u+x _~
+#+BEGIN_SRC shell
+chmod u+x _
+#+END_SRC
 
 ** View value of PATH variable
 
-~echo $PATH~
+#+BEGIN_SRC shell
+echo $PATH
+#+END_SRC
 
 ** Add a new path to PATH variable
 
@@ -69,22 +85,30 @@ echo $PATH
 
 ** Recursively list folder content
 
-~ls -R~
+#+BEGIN_SRC shell
+ls -R
+#+END_SRC
 
 ** Recursively list folder content with exclusion
 
 #+BEGIN_SRC shell
-~ls | grep -v 'name'~
+ls | grep -v 'name'
 #+END_SRC
 
 ** Recursively find all files with extension
 
-~find . -name "*.___" -type f~
+#+BEGIN_SRC shell
+find . -name "*.___" -type f
+#+END_SRC
 
 ** Recursively delete all files with extension
 
-~find . -name "*.___" -type f -delete~
+#+BEGIN_SRC shell
+find . -name "*.___" -type f -delete
+#+END_SRC
 
 ** Recursively find all files with extension and copy to folder
 
-~find . -name "*.___" -type f -exec cp {} ./foldername \;~
+#+BEGIN_SRC shell
+find . -name "*.___" -type f -exec cp {} ./foldername \;
+#+END_SRC
