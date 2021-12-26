@@ -34,6 +34,10 @@
 
 ~echo $PATH~
 
+** Add a new path to PATH variable
+
+~export PATH="$PATH:`pwd`/_"~
+
 ** Source .bash_profile from .zprofile
 
 #+BEGIN_SRC shell
