@@ -1,6 +1,6 @@
-#+TITLE: Command lines - Bash
+#+TITLE: Command lines - Shell
 
-* Bash
+* Shell
 
 ** system information
 
