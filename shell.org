@@ -50,6 +50,12 @@ chmod +x _
 chmod u+x _
 #+END_SRC
 
+** view home directory
+
+#+BEGIN_SRC shell
+echo $HOME
+#+END_SRC
+
 ** view shell type
 
 #+BEGIN_SRC shell
