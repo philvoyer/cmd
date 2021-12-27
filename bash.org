@@ -44,6 +44,12 @@ chmod +x _
 chmod u+x _
 #+END_SRC
 
+** View shell type
+
+#+BEGIN_SRC shell
+echo $SHELL
+#+END_SRC
+
 ** View value of PATH variable
 
 #+BEGIN_SRC shell
