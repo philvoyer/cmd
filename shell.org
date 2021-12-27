@@ -8,61 +8,67 @@
 uname -a
 #+END_SRC
 
-** Create folder
+** print working directory
+
+#+BEGIN_SRC shell
+
+#+END_SRC
+
+** create folder
 
 #+BEGIN_SRC shell
 mkdir -p _
 #+END_SRC
 
-** View permission
+** view permission
 
 #+BEGIN_SRC shell
 ls -l
 #+END_SRC
 
-** Permission (all user)
+** permission (all user)
 
 #+BEGIN_SRC shell
 chmod 755 _
 #+END_SRC
 
-** Permission (this user only)
+** permission (this user only)
 
 #+BEGIN_SRC shell
 chmod 700 _
 #+END_SRC
 
-** Permission (executable)
+** permission (executable)
 
 #+BEGIN_SRC shell
 chmod +x _
 #+END_SRC
 
-** Permission (executable for this user only)
+** permission (executable for this user only)
 
 #+BEGIN_SRC shell
 chmod u+x _
 #+END_SRC
 
-** View shell type
+** view shell type
 
 #+BEGIN_SRC shell
 echo $SHELL
 #+END_SRC
 
-** View value of PATH variable
+** view value of PATH variable
 
 #+BEGIN_SRC shell
 echo $PATH
 #+END_SRC
 
-** Add a new path to PATH variable
+** add a new path to PATH variable
 
 #+BEGIN_SRC shell
 export PATH="$PATH:`pwd`/_"
 #+END_SRC
 
-** Source .bash_profile from .zprofile
+** source .bash_profile from .zprofile
 
 #+BEGIN_SRC shell
 if [ -r ~/.bash_profile ]; then
@@ -70,7 +76,7 @@ if [ -r ~/.bash_profile ]; then
 fi
 #+END_SRC
 
-** Source .bashrc from .bash_profile
+** source .bashrc from .bash_profile
 
 #+BEGIN_SRC shell
 if [ -r ~/.bashrc ]; then
@@ -78,7 +84,7 @@ if [ -r ~/.bashrc ]; then
 fi
 #+END_SRC
 
-** Add path to .bashrc
+** ddd path to .bashrc
 
 #+BEGIN_SRC shell
 cd ~
@@ -89,31 +95,31 @@ source ~/.bashrc
 echo $PATH
 #+END_SRC
 
-** Recursively list folder content
+** recursively list folder content
 
 #+BEGIN_SRC shell
 ls -R
 #+END_SRC
 
-** Recursively list folder content with exclusion
+** recursively list folder content with exclusion
 
 #+BEGIN_SRC shell
 ls | grep -v 'name'
 #+END_SRC
 
-** Recursively find all files with extension
+** recursively find all files with extension
 
 #+BEGIN_SRC shell
 find . -name "*.___" -type f
 #+END_SRC
 
-** Recursively delete all files with extension
+** recursively delete all files with extension
 
 #+BEGIN_SRC shell
 find . -name "*.___" -type f -delete
 #+END_SRC
 
-** Recursively find all files with extension and copy to folder
+** recursively find all files with extension and copy to folder
 
 #+BEGIN_SRC shell
 find . -name "*.___" -type f -exec cp {} ./foldername \;
