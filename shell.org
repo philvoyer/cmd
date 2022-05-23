@@ -160,3 +160,9 @@ free -h
 #+BEGIN_SRC shell
 htop
 #+END_SRC
+
+** monitor disk space
+
+#+BEGIN_SRC shell
+df -H
+#+END_SRC
