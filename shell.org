@@ -32,6 +32,12 @@ mkdir -p _
 ls -l
 #+END_SRC
 
+** permission (read only)
+
+#+BEGIN_SRC shell
+chmod 400 _
+#+END_SRC
+
 ** permission (all user)
 
 #+BEGIN_SRC shell
