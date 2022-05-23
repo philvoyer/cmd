@@ -148,3 +148,9 @@ find . -name "*.___" -type f -delete
 #+BEGIN_SRC shell
 find . -name "*.___" -type f -exec cp {} ./foldername \;
 #+END_SRC
+
+** view available memory (RAM)
+
+#+BEGIN_SRC shell
+free -h
+#+END_SRC
