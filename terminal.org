@@ -22,6 +22,10 @@
 
 ~ifconfig | grep "inet " | grep -v 127.0.0.1~
 
+** Computer specs highlight
+
+~system_profiler SPHardwareDataType~
+
 ** View available: RAM
 
 ~system_profiler SPHardwareDataType | grep "  Memory:"~
