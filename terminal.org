@@ -17,3 +17,7 @@
 ** Disable press & hold for VSCode
 
 ~defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false~
+
+** Get IP adress
+
+~ifconfig | grep "inet " | grep -v 127.0.0.1~
