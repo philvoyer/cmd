@@ -32,6 +32,12 @@ mkdir -p _
 ls -l
 #+END_SRC
 
+** view permission (extended attributes)
+
+#+BEGIN_SRC shell
+ls -l@
+#+END_SRC
+
 ** permission (read only)
 
 #+BEGIN_SRC shell
