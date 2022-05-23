@@ -154,3 +154,9 @@ find . -name "*.___" -type f -exec cp {} ./foldername \;
 #+BEGIN_SRC shell
 free -h
 #+END_SRC
+
+** monitor system resources
+
+#+BEGIN_SRC shell
+htop
+#+END_SRC
