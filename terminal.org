@@ -21,3 +21,15 @@
 ** Get IP adress
 
 ~ifconfig | grep "inet " | grep -v 127.0.0.1~
+
+** View available: RAM
+
+~system_profiler SPHardwareDataType | grep "  Memory:"~
+
+** View available: Processors
+
+~system_profiler SPHardwareDataType | grep Processors:~
+
+** View available: Cores
+
+~system_profiler SPHardwareDataType | grep Cores:~
