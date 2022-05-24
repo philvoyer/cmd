@@ -2,9 +2,9 @@
 
 * Git
 
-** Status
+** git remote url with token
 
-~git status~
+~git remote set-url origin https://<token>@github.com/<username>/<repo>~
 
 ** View git config
 
@@ -29,6 +29,10 @@
 ** Pull rebase instead of merge
 
 ~git config --global --bool pull.rebase true~
+
+** Status
+
+~git status~
 
 ** Pull content
 
