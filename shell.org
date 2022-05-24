@@ -26,6 +26,13 @@ which _
 mkdir -p _
 #+END_SRC
 
+** list all files (including hidden)
+
+#+BEGIN_SRC shell
+ls -a
+#+END_SRC
+
+
 ** view permission
 
 #+BEGIN_SRC shell
