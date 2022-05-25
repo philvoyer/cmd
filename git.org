@@ -70,6 +70,10 @@
 
 ~git checkout -b _~
 
+** Discard changes of a file
+
+~git restore _~
+
 ** Rename branch
 
 ~git branch -m <currentbranchnewname>~
