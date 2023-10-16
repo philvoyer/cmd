@@ -45,6 +45,12 @@ ls -l
 ls -l@
 #+END_SRC
 
+** view permission as number (chmod)
+
+#+BEGIN_SRC shell
+stat --format '%a' <file>
+#+END_SRC
+
 ** permission (read only)
 
 #+BEGIN_SRC shell
