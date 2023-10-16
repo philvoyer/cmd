@@ -37,3 +37,7 @@
 ** View available: Cores
 
 ~system_profiler SPHardwareDataType | grep Cores:~
+
+** view permission as number (chmod)
+
+~stat -f "%OLp" <file>~
