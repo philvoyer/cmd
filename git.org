@@ -3,6 +3,7 @@
 * Git
 
 ** git remote url with token
+** Set git remote url with token
 
 ~git remote set-url origin https://<token>@github.com/<username>/<repo>~
 
