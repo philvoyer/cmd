@@ -41,3 +41,8 @@
 ** view permission as number (chmod)
 
 ~stat -f "%OLp" <file>~
+
+
+** view process related to a port
+
+~lsof -i:<port>~
