@@ -118,6 +118,10 @@
 
 ~git log --all --decorate --oneline --graph~
 
+** Stop tracking folder
+
+~git rm -r --cached _~
+
 ** Submodule add
 
 ~git submodule add _~
