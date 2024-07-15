@@ -6,6 +6,10 @@
 
 ~git remote~
 
+** View current remote URL
+
+~git remote -v~
+
 ** Set git remote url with token
 
 ~git remote set-url origin https://<token>@github.com/<username>/<repo>~
@@ -113,6 +117,10 @@
 ** Log branching graph
 
 ~git log --all --decorate --oneline --graph~
+
+** Stop tracking folder
+
+~git rm -r --cached _~
 
 ** Submodule add
 
