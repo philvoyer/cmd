@@ -45,3 +45,7 @@
 ** View process related to a port
 
 ~lsof -i:<port>~
+
+** Archive a folder with password encryption
+
+~zip -er archive_name.zip folder_name~
