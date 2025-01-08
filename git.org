@@ -118,6 +118,10 @@
 
 ~git log --all --decorate --oneline --graph~
 
+** Count commit by a user between 2 dates
+
+~git log --author="_@_._" --since="2024-12-23" --until="2025-01-08" --pretty=oneline | wc -l~
+
 ** Stop tracking folder
 
 ~git rm -r --cached _~
